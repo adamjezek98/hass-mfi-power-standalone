@@ -1,0 +1,12 @@
+{
+  "domain": "mfi_mpower",
+  "name": "Ubiquiti mFi mPower",
+  "codeowners": ["@adamjezek98"],
+  "config_flow": true,
+  "documentation": "https://github.com/adamjezek98/hass-mfi-power-standalone",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/adamjezek98/hass-mfi-power-standalone/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

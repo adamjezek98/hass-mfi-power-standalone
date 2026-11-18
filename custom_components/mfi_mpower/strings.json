@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Ubiquiti mFi mPower",
+        "description": "Connect to the mPower's local web interface (stock MF 2.x firmware).",
+        "data": {
+          "host": "Host",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to the device (HTTP port 80 and websocket port 7681 must be reachable).",
+      "invalid_auth": "Invalid username or password."
+    },
+    "abort": {
+      "already_configured": "This mPower is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "mPower options",
+        "data": {
+          "update_interval": "Push interval (seconds)"
+        }
+      }
+    }
+  }
+}
