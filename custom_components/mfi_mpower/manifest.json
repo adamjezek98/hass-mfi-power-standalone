@@ -1,6 +1,10 @@
 {
   "domain": "mfi_mpower",
   "name": "Ubiquiti mFi mPower",
+  "categories": [
+    "plugs_switches",
+    "energy.meters_monitoring"
+  ],
   "codeowners": ["@adamjezek98"],
   "config_flow": true,
   "documentation": "https://github.com/adamjezek98/hass-mfi-power-standalone",
